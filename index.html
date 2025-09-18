@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-poppins bg-[#106EBE] text-gray-800 scroll-smooth">
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="relative min-h-screen flex flex-col justify-center items-center bg-[#106EBE] text-white px-6 text-center"
+    >
+      <div class="absolute top-4 left-6 text-sm font-semibold text-white">
+        Portofolio
+      </div>
+      <div class="absolute top-4 right-6 text-sm font-semibold text-white">
+        2025
+      </div>
+
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Hello, Saya Renaldi</h1>
+      <p class="text-[#0FFCBE] text-xl md:text-2xl mb-6">
+        Temukan pengalaman & karya saya di sini
+      </p>
+
+      <a
+        href="assets/cv/resume.pdf"
+        class="mt-4 inline-block font-semibold bg-[#0FFCBE] text-[#106EBE] px-6 py-2 rounded-lg hover:bg-opacity-80 transition"
+      >
+        My Resume
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="min-h-screen flex items-center justify-center py-24 bg-[#FFFFFF]"
+    >
+      <div class="container mx-auto px-6">
+        <div class="rounded-3xl bg-[#106EBE] shadow-2xl p-10 md:px-20">
+          <div
+            class="grid grid-cols-1 md:grid-cols-[auto,1fr] items-center gap-8 md:gap-x-12"
+          >
+            <!-- Foto -->
+            <div
+              class="flex justify-center md:justify-start mb-6 md:mb-0"
+              data-aos="zoom-in"
+            >
+              <div class="w-40 h-40 md:w-64 md:h-64">
+                <img
+                  src="assets/images/fotonew.jpeg"
+                  alt="Foto Profil"
+                  class="w-full h-full object-cover rounded-full border-8 border-[#106EBE] shadow-xl"
+                />
+              </div>
+            </div>
+
+            <!-- Teks -->
+            <div class="text-center md:text-left" data-aos="fade-left">
+              <h2 class="text-white text-2xl md:text-4xl font-bold mb-2">
+                Renaldi
+              </h2>
+              <h3
+                class="text-[#0FFCBE] text-base md:text-xl font-semibold mb-4"
+              >
+                Junior Web Developer | IT Technical Support | Laravel Enthusiast
+              </h3>
+              <p class="text-white leading-relaxed text-sm md:text-lg">
+                “Saya adalah lulusan Ilmu Komputer yang memiliki ketertarikan
+                pada pengembangan web dan pengalaman sebagai IT Support di
+                berbagai proyek.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-24 bg-[#106EBE]">
+      <div class="container mx-auto px-6">
+        <h2 class="text-white text-3xl md:text-4xl font-bold text-center mb-12">
+          Experience
+        </h2>
+
+        <div class="space-y-10">
+          <!-- 1 -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center gap-6"
+            data-aos="fade-up"
+          >
+            <div class="w-24 h-24 flex-shrink-0">
+              <img
+                src="assets/images/ut.png"
+                alt="PT United Tractors Pandu Engineering"
+                class="w-full h-full object-cover rounded-full border-4 border-[#106EBE] shadow-md"
+              />
+            </div>
+            <div class="text-center md:text-left">
+              <h3 class="text-xl font-bold">
+                PT United Tractors Pandu Engineering
+              </h3>
+              <p class="text-sm mb-2">Dec 2018 - Apr 2019</p>
+              <p class="text-gray-700 text-sm md:text-base">
+                Memberikan dukungan teknis kepada pengguna internal dalam hal
+                perangkat keras dan perangkat lunak.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center gap-6"
+            data-aos="fade-up"
+          >
+            <div class="w-24 h-24 flex-shrink-0">
+              <img
+                src="assets/images/indo.png"
+                alt="PT Indofarma Tbk"
+                class="w-full h-full object-cover rounded-full border-4 border-[#106EBE] shadow-md"
+              />
+            </div>
+            <div class="text-center md:text-left">
+              <h3 class="text-xl font-bold">PT Indofarma Tbk</h3>
+              <p class="text-sm mb-2">Sep 2023 - Dec 2023</p>
+              <p class="text-gray-700 text-sm md:text-base">
+                Membuat Project Sistem Informasi Permintaan Pelayanan Kendaraan
+                Operasional Berbasis Web Menggunakan PHP Native, Bootstrap 5,
+                JavaScript.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center gap-6"
+            data-aos="fade-up"
+          >
+            <div class="w-24 h-24 flex-shrink-0">
+              <img
+                src="assets/images/mikti.png"
+                alt="MIKTI"
+                class="w-full h-full object-cover rounded-full border-4 border-[#106EBE] shadow-md"
+              />
+            </div>
+            <div class="text-center md:text-left">
+              <h3 class="text-xl font-bold">MIKTI</h3>
+              <p class="text-sm mb-2">Feb 2024 - Aug 2024</p>
+              <p class="text-gray-700 text-sm md:text-base">
+                Program MBKM Studi Independen Memberdayakan Laravel Full Stack
+                Terintegrasi Dengan OpenAI API.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 bg-[#F8FAFC]">
+      <div class="container mx-auto px-6">
+        <h2
+          class="text-[#106EBE] text-4xl md:text-5xl font-bold text-center mb-12"
+        >
+          My Projects
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Project 1 -->
+          <div
+            class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+            data-aos="fade-up"
+          >
+            <div class="overflow-hidden h-52">
+              <img
+                src="assets/images/ppko.webp"
+                alt="PPKO"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer preview-image"
+              />
+            </div>
+            <div class="p-6 flex flex-col justify-between h-[200px]">
+              <div>
+                <h3 class="text-xl font-bold text-[#106EBE] mb-2">PPKO</h3>
+                <p class="text-sm text-gray-600">
+                  Permintaan Pelayanan Kendaraan Operasional
+                </p>
+              </div>
+              <div class="mt-4">
+                <a
+                  href="https://github.com/rrnaldi/app-ppko.git"
+                  target="_blank"
+                  class="inline-block px-4 py-2 text-sm font-semibold text-white bg-[#0FFCBE] hover:bg-[#0fcbae] rounded-lg transition"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+            data-aos="fade-up"
+          >
+            <div class="overflow-hidden h-52">
+              <img
+                src="assets/images/undangan.webp"
+                alt="Undangan-App"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer preview-image"
+              />
+            </div>
+            <div class="p-6 flex flex-col justify-between h-[200px]">
+              <div>
+                <h3 class="text-xl font-bold text-[#106EBE] mb-2">
+                  Undangan-App
+                </h3>
+                <p class="text-sm text-gray-600">
+                  Website Undangan yang dibuat dengan Laravel + Tailwind
+                </p>
+              </div>
+              <div class="mt-4">
+                <a
+                  href="https://github.com/rrnaldi/undangan-app.git"
+                  target="_blank"
+                  class="inline-block px-4 py-2 text-sm font-semibold text-white bg-[#0FFCBE] hover:bg-[#0fcbae] rounded-lg transition"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+            data-aos="fade-up"
+          >
+            <div class="overflow-hidden h-52">
+              <img
+                src="assets/images/cp.webp"
+                alt="Company Profile"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer preview-image"
+              />
+            </div>
+            <div class="p-6 flex flex-col justify-between h-[200px]">
+              <div>
+                <h3 class="text-xl font-bold text-[#106EBE] mb-2">
+                  Company Profile
+                </h3>
+                <p class="text-sm text-gray-600">
+                  Website Company Profile yang dibuat dengan Laravel Blade +
+                  Tailwind
+                </p>
+              </div>
+              <div class="mt-4">
+                <a
+                  href="https://github.com/rrnaldi/company-profile.git"
+                  target="_blank"
+                  class="inline-block px-4 py-2 text-sm font-semibold text-white bg-[#0FFCBE] hover:bg-[#0fcbae] rounded-lg transition"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div
+            class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+            data-aos="fade-up"
+          >
+            <div class="overflow-hidden h-52">
+              <img
+                src="assets/images/daily.webp"
+                alt="Daily Production Reporting"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer preview-image"
+              />
+            </div>
+            <div class="p-6 flex flex-col justify-between h-[200px]">
+              <div>
+                <h3 class="text-xl font-bold text-[#106EBE] mb-2">
+                  Daily Production Reporting
+                </h3>
+                <p class="text-sm text-gray-600">
+                  Aplikasi web untuk mencatat dan memantau produksi harian
+                  pabrik dengan fitur Work Center, Input Bahan, Output Produksi,
+                  Laporan, dan Ekspor CSV.
+                </p>
+              </div>
+              <div class="mt-4">
+                <a
+                  href="https://github.com/rrnaldi/daily-production-reporting.git"
+                  target="_blank"
+                  class="inline-block px-4 py-2 text-sm font-semibold text-white bg-[#0FFCBE] hover:bg-[#0fcbae] rounded-lg transition"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 5 -->
+          <div
+            class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+            data-aos="fade-up"
+          >
+            <div class="overflow-hidden h-52">
+              <img
+                src="assets/images/gudang.webp"
+                alt="Manajemen Gudang"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 cursor-pointer preview-image"
+              />
+            </div>
+            <div class="p-6 flex flex-col justify-between h-[200px]">
+              <div>
+                <h3 class="text-xl font-bold text-[#106EBE] mb-2">
+                  Manajemen Gudang
+                </h3>
+                <p class="text-sm text-gray-600">
+                  Aplikasi manajemen gudang (Warehouse Management System / WMS)
+                  yang dibuat dengan Laravel + Tailwind
+                </p>
+              </div>
+              <div class="mt-4">
+                <a
+                  href="https://github.com/rrnaldi/manajemen-gudang.git"
+                  target="_blank"
+                  class="inline-block px-4 py-2 text-sm font-semibold text-white bg-[#0FFCBE] hover:bg-[#0fcbae] rounded-lg transition"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Modal -->
+      <div
+        id="imageModal"
+        class="fixed inset-0 z-50 hidden bg-black bg-opacity-80"
+      >
+        <div class="flex items-center justify-center min-h-screen px-4">
+          <div
+            class="relative bg-white rounded-xl shadow-lg p-4 max-w-[90vw] max-h-[90vh]"
+          >
+            <!-- Tombol close -->
+            <button
+              id="closeModal"
+              class="absolute top-2 right-2 text-white bg-black bg-opacity-70 px-3 py-1 rounded-full text-lg z-50"
+            >
+              &times;
+            </button>
+            <!-- Gambar -->
+            <img
+              id="modalImage"
+              src=""
+              alt="Preview"
+              class="max-w-full max-h-[80vh] object-contain mx-auto rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 mt-6 bg-[#106EBE]">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-12">
+          My Skills
+        </h2>
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <!-- PHP -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i class="fa-brands fa-php text-5xl text-[#106EBE]"></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              PHP
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">70%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 70%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Laravel -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i class="fa-brands fa-laravel text-5xl text-[#106EBE]"></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              Laravel
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">75%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HTML -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i class="fa-brands fa-html5 text-5xl text-[#106EBE]"></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              HTML
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">80%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 80%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i class="fa-brands fa-css3-alt text-5xl text-[#106EBE]"></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              CSS
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">70%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 70%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MS Office -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i class="fa-solid fa-file-word text-5xl text-[#106EBE]"></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              MS Office
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">80%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 80%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Networking -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i class="fa-solid fa-network-wired text-5xl text-[#106EBE]"></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              Networking
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">75%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 75%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Troubleshooting -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center space-y-4 hover:scale-105 transition-transform"
+            data-aos="fade-up"
+          >
+            <i
+              class="fa-solid fa-screwdriver-wrench text-5xl text-[#106EBE]"
+            ></i>
+            <h3 class="text-lg font-semibold text-[#106EBE] text-center">
+              Troubleshooting
+            </h3>
+            <div class="w-full">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-gray-700">Progress</span>
+                <span class="text-sm font-medium text-[#106EBE]">80%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  class="bg-[#0FFCBE] h-3 rounded-full"
+                  style="width: 80%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white rounded-t-[4rem] py-24">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-5xl font-extrabold text-[#106EBE] mb-12">
+          Hubungi Saya
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-6">
+          <!-- WhatsApp -->
+          <a
+            href="https://wa.me/6288213351902"
+            target="_blank"
+            class="w-16 h-16 flex items-center justify-center border-2 border-[#106EBE] text-[#106EBE] rounded-full text-2xl hover:bg-[#106EBE] hover:text-white transition"
+            title="WhatsApp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <!-- Email -->
+          <a
+            href="mailto:renaldi240402@email.com"
+            target="_blank"
+            class="w-16 h-16 flex items-center justify-center border-2 border-[#106EBE] text-[#106EBE] rounded-full text-2xl hover:bg-[#106EBE] hover:text-white transition"
+            title="Email"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/renaldi-bba92014a/"
+            target="_blank"
+            class="w-16 h-16 flex items-center justify-center border-2 border-[#106EBE] text-[#106EBE] rounded-full text-2xl hover:bg-[#106EBE] hover:text-white transition"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/rnaldi24"
+            target="_blank"
+            class="w-16 h-16 flex items-center justify-center border-2 border-[#106EBE] text-[#106EBE] rounded-full text-2xl hover:bg-[#106EBE] hover:text-white transition"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script Modal -->
+    <script>
+      const modal = document.getElementById("imageModal");
+      const modalImage = document.getElementById("modalImage");
+      const closeModal = document.getElementById("closeModal");
+      const imageThumbnails = document.querySelectorAll(".preview-image");
+
+      imageThumbnails.forEach((imgprojek) => {
+        imgprojek.addEventListener("click", () => {
+          modal.classList.remove("hidden");
+          modalImage.src = imgprojek.src;
+        });
+      });
+
+      closeModal.addEventListener("click", () => {
+        modal.classList.add("hidden");
+        modalImage.src = "";
+      });
+
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          modal.classList.add("hidden");
+          modalImage.src = "";
+        }
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
