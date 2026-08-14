@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Undangan Apps | Renaldi</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/profile.png" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#F8FAFC] text-gray-800">
+    <!-- Header -->
+    <header class="bg-[#106EBE] text-white">
+      <div
+        class="container mx-auto px-6 py-5 flex justify-between items-center"
+      >
+        <!-- Logo / Title -->
+        <div class="text-sm font-semibold">Portofolio</div>
+
+        <!-- Year -->
+        <div class="text-sm font-semibold">2026</div>
+      </div>
+    </header>
+
+    <!-- Project Detail -->
+    <main class="py-20">
+      <div class="container mx-auto px-6 max-w-5xl">
+        <!-- Project Header -->
+        <section class="mb-16" data-aos="fade-up">
+          <a
+            href="../index.html#projects"
+            class="inline-flex items-center gap-2 text-sm font-semibold hover:text-[#0FFCBE] transition mb-3"
+          >
+            <i class="fa-solid fa-arrow-left"></i>
+            Kembali ke Portofolio
+          </a>
+          <!-- Number -->
+          <div class="mb-4">
+            <span class="text-[#106EBE] text-3xl font-bold"> 02 </span>
+          </div>
+
+          <!-- Category -->
+          <p class="text-sm font-semibold text-gray-500 mb-6">
+            Web Development
+          </p>
+
+          <!-- Project Title -->
+          <h1 class="text-3xl md:text-4xl font-bold text-[#106EBE] mb-6">
+            Undangan-Apps
+          </h1>
+
+          <!-- Description -->
+          <p
+            class="text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl"
+          >
+            Website Undangan yang dibuat dengan Laravel + Tailwind.
+          </p>
+        </section>
+
+        <!-- Google Sheet -->
+        <section class="mb-16" data-aos="fade-up">
+          <div
+            class="bg-white rounded-3xl shadow-lg p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6"
+          >
+            <div>
+              <h2 class="text-2xl font-bold text-[#106EBE] mb-2">
+                Web Documentation
+              </h2>
+
+              <p class="text-gray-600">Lihat dokumentasi web secara lengkap.</p>
+            </div>
+
+            <a
+              href="https://github.com/rrnaldi/undangan-app.git"
+              target="_blank"
+              class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#0FFCBE] text-[#106EBE] font-semibold rounded-lg hover:bg-[#0fcbae] transition whitespace-nowrap"
+            >
+              <i class="fa-solid fa-table"></i>
+              View Github
+            </a>
+          </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="border-t-2 border-gray-300 mb-16"></div>
+
+        <!-- Project Screenshot -->
+        <section data-aos="fade-up">
+          <h2 class="text-3xl font-bold text-[#106EBE] mb-8">
+            Screenshot Hasil Project
+          </h2>
+
+          <div class="space-y-10">
+            <!-- Test Case -->
+            <div>
+              <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+                <img
+                  src="../assets/images/undangan.webp"
+                  alt="Test Case QA Project"
+                  class="w-full h-auto object-contain"
+                />
+              </div>
+
+              <p
+                class="text-gray-600 text-sm md:text-base leading-relaxed mt-4"
+              >
+                Project website undangan pernikahan yang dibuat menggunakan
+                Laravel dan Tailwind CSS. Website ini memiliki fitur informasi
+                acara, data tamu melalui URL, serta form untuk mengirim ucapan.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#106EBE] text-white py-8 mt-10">
+      <div class="container mx-auto px-6 text-center">
+        <p class="text-sm">© 2026 Renaldi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
