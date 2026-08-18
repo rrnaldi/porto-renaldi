@@ -22,137 +22,189 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap"
       rel="stylesheet"
     />
 
     <style>
+      :root {
+        --purple: #c53678;
+        --purple-dark: #9c2860;
+        --orange: #ff5841;
+        --tint: #fbf0f5;
+        --ink: #241d22;
+        --muted: #6f6570;
+        --hair: #efe1ea;
+      }
+      html,
       body {
-        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        color: var(--ink);
+      }
+      h1,
+      h2,
+      h3,
+      .font-display {
+        font-family: "Sora", sans-serif;
+      }
+      .font-mono {
+        font-family: "JetBrains Mono", monospace;
+      }
+      .badge {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.04em;
+        font-weight: 500;
       }
     </style>
   </head>
 
-  <body class="bg-[#F8FAFC] text-gray-800">
-    <!-- Header -->
-    <header class="bg-[#106EBE] text-white">
+  <body class="bg-white text-[#241D22] scroll-smooth">
+    <!-- Nav -->
+    <header
+      class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-[#EFE1EA]"
+    >
       <div
-        class="container mx-auto px-6 py-5 flex justify-between items-center"
+        class="container mx-auto px-6 h-16 flex items-center justify-between"
       >
-        <!-- Logo / Title -->
-        <div class="text-sm font-semibold">Portofolio</div>
+        <a
+          href="../index.html"
+          class="font-display font-bold text-lg text-[#241D22]"
+        >
+          Renaldi<span class="text-[#C53678]">.</span>
+        </a>
 
-        <!-- Year -->
-        <div class="text-sm font-semibold">2026</div>
+        <a
+          href="../index.html#projects"
+          class="inline-flex items-center gap-2 text-sm font-semibold text-[#6F6570] hover:text-[#C53678] transition"
+        >
+          <i class="fa-solid fa-arrow-left text-xs"></i>
+          <span class="hidden sm:inline">Kembali ke Portofolio</span>
+          <span class="sm:hidden">Kembali</span>
+        </a>
       </div>
     </header>
 
     <!-- Project Detail -->
-    <main class="py-20">
-      <div class="container mx-auto px-6 max-w-5xl">
+    <main class="py-16 md:py-20">
+      <div class="container mx-auto px-6 max-w-4xl">
         <!-- Project Header -->
-        <section class="mb-16" data-aos="fade-up">
-          <a
-            href="../index.html#projects"
-            class="inline-flex items-center gap-2 text-sm font-semibold hover:text-[#0FFCBE] transition mb-3"
-          >
-            <i class="fa-solid fa-arrow-left"></i>
-            Kembali ke Portofolio
-          </a>
-          <!-- Number -->
-          <div class="mb-4">
-            <span class="text-[#106EBE] text-3xl font-bold"> 06 </span>
+        <section class="mb-14" data-aos="fade-up">
+          <div class="flex flex-wrap items-center gap-3 mb-6">
+            <span
+              class="font-mono text-xs text-[#C53678] bg-[#FBF0F5] px-2.5 py-1 rounded-full"
+              >06</span
+            >
+            <span class="badge text-[#6F6570] uppercase">Web Development</span>
           </div>
 
-          <!-- Category -->
-          <p class="text-sm font-semibold text-gray-500 mb-6">
-            Web Development
-          </p>
-
-          <!-- Project Title -->
-          <h1 class="text-3xl md:text-4xl font-bold text-[#106EBE] mb-6">
-            PPKO
+          <h1
+            class="text-3xl md:text-4xl font-bold text-[#241D22] mb-5 leading-tight"
+          >
+            <span class="text-[#C53678]">PPKO</span>
           </h1>
 
-          <!-- Description -->
           <p
-            class="text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl"
+            class="text-[#6F6570] text-base md:text-lg leading-relaxed max-w-2xl"
           >
-            Website Permintaan Pelayanan Kendaraan Operasional
+            Website Permintaan Pelayanan Kendaraan Operasional.
           </p>
         </section>
 
-        <!-- Google Sheet -->
-        <section class="mb-16" data-aos="fade-up">
+        <!-- Github -->
+        <section class="mb-14" data-aos="fade-up">
           <div
-            class="bg-white rounded-3xl shadow-lg p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6"
+            class="bg-[#FBF0F5] border border-[#EFE1EA] rounded-2xl p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6"
           >
-            <div>
-              <h2 class="text-2xl font-bold text-[#106EBE] mb-2">
-                Web Documentation
-              </h2>
-
-              <p class="text-gray-600">Lihat dokumentasi web secara lengkap.</p>
+            <div class="min-w-0">
+              <h2 class="text-xl font-bold mb-2">Web Documentation</h2>
+              <p class="text-[#6F6570] text-sm md:text-base">
+                Lihat dokumentasi web secara lengkap.
+              </p>
             </div>
 
             <a
               href="https://github.com/rrnaldi/manajemen-gudang.git"
               target="_blank"
-              class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#0FFCBE] text-[#106EBE] font-semibold rounded-lg hover:bg-[#0fcbae] transition whitespace-nowrap"
+              class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#C53678] text-white text-sm font-semibold rounded-full hover:bg-[#9C2860] transition whitespace-nowrap shrink-0"
             >
-              <i class="fa-solid fa-table"></i>
+              <i class="fa-brands fa-github"></i>
               View Github
             </a>
           </div>
         </section>
 
         <!-- Divider -->
-        <div class="border-t-2 border-gray-300 mb-16"></div>
+        <div class="border-t border-[#EFE1EA] mb-14"></div>
 
         <!-- Project Screenshot -->
         <section data-aos="fade-up">
-          <h2 class="text-3xl font-bold text-[#106EBE] mb-8">
+          <span class="badge text-[#9C2860] uppercase block mb-2"
+            >Dokumentasi</span
+          >
+          <h2 class="text-2xl md:text-3xl font-bold mb-8">
             Screenshot Hasil Project
           </h2>
 
           <div class="space-y-10">
-            <!-- Test Case -->
-            <div>
-              <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+            <!-- PPKO -->
+            <div data-aos="fade-up">
+              <div class="flex items-center gap-2 mb-3">
+                <i class="fa-solid fa-code text-[#C53678] text-sm"></i>
+                <span class="font-mono text-xs text-[#6F6570]">PPKO.WEBP</span>
+              </div>
+              <div
+                class="bg-white border border-[#EFE1EA] rounded-2xl shadow-sm overflow-hidden"
+              >
                 <img
                   src="../assets/images/ppko.webp"
-                  alt="Test Case QA Project"
+                  alt="PPKO Project"
                   class="w-full h-auto object-contain"
                 />
               </div>
-
               <p
-                class="text-gray-600 text-sm md:text-base leading-relaxed mt-4"
+                class="text-[#6F6570] text-sm md:text-base leading-relaxed mt-4"
               >
-                Website Permintaan Pelayanan Kendaraan Operasional Aplikasi yang
-                dibuat menggunakan PHP Native untuk membantu proses pengajuan
-                dan pengelolaan kendaraan operasional. Project ini dikembangkan
-                sebagai Tugas Akhir/Skripsi.
+                Website Permintaan Pelayanan Kendaraan Operasional. Aplikasi
+                yang dibuat menggunakan PHP Native untuk membantu proses
+                pengajuan dan pengelolaan kendaraan operasional. Project ini
+                dikembangkan sebagai Tugas Akhir/Skripsi.
               </p>
             </div>
           </div>
         </section>
+
+        <!-- Back link (bottom) -->
+        <div class="mt-16 pt-8 border-t border-[#EFE1EA]" data-aos="fade-up">
+          <a
+            href="../index.html#projects"
+            class="inline-flex items-center gap-2 text-sm font-semibold text-[#C53678] hover:text-[#FF5841] transition"
+          >
+            <i class="fa-solid fa-arrow-left text-xs"></i>
+            Kembali ke semua proyek
+          </a>
+        </div>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#106EBE] text-white py-8 mt-10">
+    <footer class="border-t border-[#EFE1EA] py-8">
       <div class="container mx-auto px-6 text-center">
-        <p class="text-sm">© 2026 Renaldi. All rights reserved.</p>
+        <p class="text-sm text-[#6F6570]">
+          © 2026 Renaldi. All rights reserved.
+        </p>
       </div>
     </footer>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <script>
-      AOS.init();
+      AOS.init({ duration: 600, once: true, offset: 40 });
     </script>
   </body>
 </html>
