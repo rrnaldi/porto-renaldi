@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>QA Project | Renaldi</title>
+    <title>QA Testing — Manual & Automation | Renaldi</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../assets/images/profile.png" />
@@ -98,7 +98,7 @@
           <div class="flex flex-wrap items-center gap-3 mb-6">
             <span
               class="font-mono text-xs text-[#0891b2] bg-[#f1f5f9] px-2.5 py-1 rounded-full"
-              >01</span
+              >02</span
             >
             <span class="badge text-[#64748b] uppercase"
               >QA / Software Testing</span
@@ -108,17 +108,44 @@
           <h1
             class="text-3xl md:text-4xl font-bold text-[#111827] mb-5 leading-tight"
           >
-            QA Manual Testing —
-            <span class="text-[#0891b2]">Final Project</span>
+            QA Testing — <span class="text-[#0891b2]">Manual & Automation</span>
           </h1>
 
           <p
-            class="text-[#64748b] text-base md:text-lg leading-relaxed max-w-2xl"
+            class="text-[#64748b] text-base md:text-lg leading-relaxed max-w-2xl mb-6"
           >
-            Proyek akhir Bootcamp QA Manual: pembuatan test case, pelaporan bug,
-            dan pengujian API menggunakan Postman
+            Kumpulan proyek pengujian software, mencakup manual testing
+            (Bootcamp QA Manual) dan automation testing menggunakan Playwright
+            pada website SauceDemo.
           </p>
+
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="text-xs font-semibold bg-[#f1f5f9] text-[#0e7490] px-3 py-1.5 rounded-full"
+              >Manual Testing</span
+            >
+            <span
+              class="text-xs font-semibold bg-[#f1f5f9] text-[#0e7490] px-3 py-1.5 rounded-full"
+              >Postman</span
+            >
+            <span
+              class="text-xs font-semibold bg-[#f1f5f9] text-[#0e7490] px-3 py-1.5 rounded-full"
+              >Playwright</span
+            >
+            <span
+              class="text-xs font-semibold bg-[#f1f5f9] text-[#0e7490] px-3 py-1.5 rounded-full"
+              >TypeScript</span
+            >
+          </div>
         </section>
+
+        <!-- Manual Testing -->
+        <div class="mb-6" data-aos="fade-up">
+          <span class="badge text-[#0e7490] uppercase block mb-2"
+            >Bagian 1</span
+          >
+          <h2 class="text-2xl md:text-3xl font-bold">Manual Testing</h2>
+        </div>
 
         <!-- Google Sheet -->
         <section class="mb-14" data-aos="fade-up">
@@ -126,14 +153,14 @@
             class="bg-[#f1f5f9] border border-[#e2e8f0] rounded-2xl p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6"
           >
             <div class="min-w-0">
-              <h2 class="text-xl font-bold mb-2">Test Case Documentation</h2>
+              <h3 class="text-xl font-bold mb-2">Test Case Documentation</h3>
               <p class="text-[#64748b] text-sm md:text-base">
                 Lihat dokumentasi test case dan hasil pengujian secara lengkap.
               </p>
             </div>
 
             <a
-              href="https://drive.google.com/drive/folders/1RVPzbqAsuEVp3NjZkr65UKqzjeH9COqo?usp=sharing"
+              href="https://drive.google.com/drive/folders/1BIQ4QtNvgMnZSshTZu3OwiPCC2KII46b?usp=sharing"
               target="_blank"
               class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#0891b2] text-white text-sm font-semibold rounded-full hover:bg-[#0e7490] transition whitespace-nowrap shrink-0"
             >
@@ -143,17 +170,9 @@
           </div>
         </section>
 
-        <!-- Divider -->
-        <div class="border-t border-[#e2e8f0] mb-14"></div>
-
         <!-- Project Screenshot -->
-        <section data-aos="fade-up">
-          <span class="badge text-[#0e7490] uppercase block mb-2"
-            >Dokumentasi</span
-          >
-          <h2 class="text-2xl md:text-3xl font-bold mb-8">
-            Screenshot Hasil Project
-          </h2>
+        <section class="mb-14" data-aos="fade-up">
+          <h3 class="text-xl font-bold mb-8">Screenshot Hasil Pengujian</h3>
 
           <div class="space-y-10">
             <!-- Test Case -->
@@ -168,7 +187,7 @@
                 class="bg-white border border-[#e2e8f0] rounded-2xl shadow-sm overflow-hidden"
               >
                 <img
-                  src="../assets/images/TC Final.png"
+                  src="../assets/images/SS_TC Sauce.png"
                   alt="Test Case QA Project"
                   class="w-full h-auto object-contain"
                 />
@@ -181,31 +200,81 @@
                 result, actual result, dan hasil pengujian.
               </p>
             </div>
+          </div>
+        </section>
 
-            <!-- Bug Finding -->
+        <!-- Divider -->
+        <div class="border-t border-[#e2e8f0] mb-14"></div>
+
+        <!-- Google Sheet -->
+        <section class="mb-14" data-aos="fade-up">
+           <div class="mb-6" data-aos="fade-up">
+          <span class="badge text-[#0e7490] uppercase block mb-2"
+            >Bagian 2</span
+          >
+          <h2 class="text-2xl md:text-3xl font-bold">
+            Automation Testing — Playwright (SauceDemo)
+          </h2>
+          <p class="text-[#64748b] text-base leading-relaxed max-w-2xl mt-3">
+            Proyek pembelajaran automation testing menggunakan Playwright untuk
+            menguji fungsionalitas website SauceDemo, mencakup skenario login,
+            penambahan ke keranjang, hingga proses checkout.
+          </p>
+        </div>
+
+        <!-- CTA: Github & Test Report -->
+        <section class="mb-14 grid gap-4 md:grid-cols-2" data-aos="fade-up">
+          <div
+            class="bg-[#f1f5f9] border border-[#e2e8f0] rounded-2xl p-6 flex flex-col justify-between gap-4"
+          >
+            <div class="min-w-0">
+              <h3 class="text-lg font-bold mb-1">Source Code</h3>
+              <p class="text-[#64748b] text-sm">
+                Lihat kode automation script secara lengkap di GitHub.
+              </p>
+            </div>
+            <a
+              href="https://github.com/rrnaldi/playwright-saucedemo-automation.git"
+              target="_blank"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 bg-[#1f2937] text-white text-sm font-semibold rounded-full hover:bg-[#111827] transition whitespace-nowrap"
+            >
+              <i class="fa-brands fa-github"></i>
+              View Github
+            </a>
+          </div>
+
+
+        </section>
+
+        <!-- Project Screenshot -->
+        <section class="mb-14" data-aos="fade-up">
+          <h3 class="text-xl font-bold mb-8">Screenshot Hasil Pengujian</h3>
+
+          <div class="space-y-10">
+            <!-- Test Case -->
             <div data-aos="fade-up">
               <div class="flex items-center gap-2 mb-3">
-                <i class="fa-solid fa-bug text-[#1f2937] text-sm"></i>
+                <i class="fa-solid fa-circle-check text-[#0891b2] text-sm"></i>
                 <span class="font-mono text-xs text-[#64748b]"
-                  >BUG-FINDING-DOC.PNG</span
+                  >CODE-DOC.PNG</span
                 >
               </div>
               <div
                 class="bg-white border border-[#e2e8f0] rounded-2xl shadow-sm overflow-hidden"
               >
                 <img
-                  src="../assets/images/FB Final.png"
-                  alt="Bug Finding QA Project"
+                  src="../assets/images/SS_Pass.png"
+                  alt="Test Case QA Project"
                   class="w-full h-auto object-contain"
                 />
               </div>
-              <p
+              <!-- <p
                 class="text-[#64748b] text-sm md:text-base leading-relaxed mt-4"
               >
-                Dokumentasi hasil bug finding selama proses pengujian, termasuk
-                identifikasi masalah, langkah reproduksi, expected result,
-                actual result, dan bukti temuan bug.
-              </p>
+                Dokumentasi test case yang dibuat untuk menguji fitur pada
+                aplikasi, mencakup test scenario, test step, test data, expected
+                result, actual result, dan hasil pengujian.
+              </p> -->
             </div>
           </div>
         </section>
